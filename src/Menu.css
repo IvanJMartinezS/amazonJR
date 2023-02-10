@@ -1,6 +1,5 @@
 .container{
     background-color: rgb(19, 42, 71);
-    color: white;
     border-bottom: solid 1px #ccc;
     padding: 10px;
     margin: 0 auto;
@@ -17,7 +16,7 @@
     color: #fff;
     font-weight: bolder;
     font-size: 22px;
-    width: 100px;
+    width: 115px;
 }
 
 .search{
