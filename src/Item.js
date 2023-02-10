@@ -21,12 +21,12 @@ class Item extends React.Component{
     render(){
         return(
             <div className="item">
-                <div className="image"><img src={'img/' + this.props.image} alt="book" width="100%" /></div>
+                <div className="image"><img src={'img/' + this.props.image} width="100%" /></div>
                 <div className="title">{this.props.title}</div>
                 <div className="rating">
                     <p>
                     {this.state.stars.map(x =>
-                        <img src='img/star.png' alt="stars" width='32' />
+                        <img src='img/star.png' width='32' />
                     )}
                     </p>
                     Calificación: 
