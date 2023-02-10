@@ -28,7 +28,7 @@ class Menu extends React.Component{
                 <div className="subcontainer">
                     <div className="logo">{this.props.title}</div>
                     <div className="search">
-                        <Search />
+                        <Search onsearch={this.props.onsearch} />
                     </div>
                     <div className="actions">
                         <button onClick={this.add} className="button btn-blue">+ Añadir nuevo libro</button>
